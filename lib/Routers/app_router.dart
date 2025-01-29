@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 // login_screen.dart
+import '../main.dart';
 import '../screens/auth/login_screen.dart';
 // register_screen.dart and user_register_screen.dart
 import '../screens/Users/UserListScreen.dart';
@@ -22,6 +23,8 @@ import '../screens/home/staffPortal.dart';
 class AppRouter {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
+      case '/':
+        return MaterialPageRoute(builder: (_) => MyApp());
       case '/login':
         return MaterialPageRoute(builder: (_) => LoginScreen());
       case '/user/register':
@@ -55,7 +58,10 @@ class AppRouter {
       case '/staffPortal':
         return MaterialPageRoute(builder: (_) => StaffPortalScreen());
       case '/patientPortal':
-        return MaterialPageRoute(builder: (_) => PatientPortalScreen());
+        return MaterialPageRoute(
+            builder: (_) => PatientPortalScreen(
+                  patientId: '',
+                ));
       default:
         return MaterialPageRoute(
           builder: (_) => Scaffold(

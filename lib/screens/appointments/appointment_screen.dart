@@ -84,6 +84,7 @@ class _AppointmentListScreenState extends State<AppointmentListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         title: Text('Appointments'),
         actions: [
           IconButton(
@@ -94,6 +95,13 @@ class _AppointmentListScreenState extends State<AppointmentListScreen> {
                 MaterialPageRoute(builder: (context) => AddAppointmentScreen()),
               ).then((_) =>
                   setState(() => futureAppointments = fetchAppointments()));
+            },
+          ),
+
+          IconButton(
+            icon: Icon(Icons.backup),
+            onPressed: () {
+              Navigator.pop(context, true);
             },
           ),
         ],

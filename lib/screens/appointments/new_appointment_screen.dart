@@ -136,7 +136,21 @@ class _AddAppointmentScreenState extends State<AddAppointmentScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Add Appointment')),
+      appBar: AppBar(
+        automaticallyImplyLeading: false,
+        title: Text('Add Appointment'),
+        actions: [
+          IconButton(
+            icon: Icon(Icons.back_hand),
+            onPressed: () {
+              Navigator.pushNamedAndRemoveUntil(
+                context,
+                '/view/appointments',
+                (route) => false,
+              );
+            },
+          ),
+        ],),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Form(
