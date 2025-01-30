@@ -1,16 +1,32 @@
 # d_app
 
-A new Flutter project.
+# 🏥 Doctor Appointment System
 
-## Getting Started
+## 📖 Overview
+This project is a **Doctor Appointment System** that allows patients to book appointments with doctors efficiently. It includes multiple panels for different user roles:  
 
-This project is a starting point for a Flutter application.
+- **Admin Panel**: Manage doctors, patients, staff, and appointments.  
+- **Doctor Panel**: View and manage appointments, update availability.  
+- **Patient Panel**: Book appointments, view appointment history.  
+- **Staff Panel**: Assist in scheduling and patient management.  
 
-A few resources to get you started if this is your first Flutter project:
+The system ensures seamless communication between **patients, doctors, and staff** for effective healthcare management.  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Stack
+### **Frontend** (Flutter)  
+- Flutter (Dart)  
+- Provider / Riverpod (State Management)  
+- HTTP (API Integration)  
+- Firebase (Optional for Authentication & Notifications)  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### **Backend** (Node.js & Express)  
+- Node.js  
+- Express.js (API framework)  
+- JWT (Authentication)  
+- MySQL (Database)  
+
+## 🚀 Features
+✔ **User Authentication** (Admin, Doctor, Patient, Staff)  
+✔ **Appointment Booking & Scheduling**  
+✔ **Doctor Availability Management**  
+✔ **Notification System** (Email/SMS)  
