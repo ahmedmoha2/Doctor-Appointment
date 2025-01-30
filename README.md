@@ -43,6 +43,5 @@ The system ensures seamless communication between **patients, doctors, and staff
 - ✔ ** Zakariye Ali
 - ✔ ** Email: muthasirmohamed0@gmail.com
 
-- ✔ ** Ahmed 
-- ✔ ** Email: muthasirmohamed0@gmail.com
-
+- ✔ ** Ahmed Abdi mohamed
+- ✔ ** ahmedabdimohamed41@gmail.com 
