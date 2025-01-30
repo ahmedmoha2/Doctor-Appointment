@@ -33,7 +33,16 @@ The system ensures seamless communication between **patients, doctors, and staff
 
 
 ## 👨‍💻 Author
-✔ ** Muthasir Mohamet
-✔ ** GitHub: muthasirMohamet
-✔ ** Email: your-email@example.com
-✔ ** LinkedIn: Your LinkedIn
+
+- ✔ ** Muthasir Mohamet
+- ✔ ** Email: muthasirmohamed0@gmail.com
+
+- ✔ ** Abdirahman Hussien Ali
+- ✔ ** Email: muthasirmohamed0@gmail.com
+
+- ✔ ** Zakariye Ali
+- ✔ ** Email: muthasirmohamed0@gmail.com
+
+- ✔ ** Ahmed 
+- ✔ ** Email: muthasirmohamed0@gmail.com
+
