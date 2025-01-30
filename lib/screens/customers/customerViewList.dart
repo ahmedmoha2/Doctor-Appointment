@@ -5,6 +5,8 @@ import 'dart:convert';
 import 'editCustomer.dart';
 
 class CustomerManagementScreen extends StatefulWidget {
+  const CustomerManagementScreen({super.key});
+
   @override
   _CustomerManagementScreenState createState() =>
       _CustomerManagementScreenState();

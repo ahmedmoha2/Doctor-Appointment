@@ -155,7 +155,7 @@ class _UserViewScreenState extends State<UserViewScreen> {
 class EditUserScreen extends StatefulWidget {
   final Map<String, dynamic> user;
 
-  EditUserScreen({required this.user});
+  const EditUserScreen({super.key, required this.user});
 
   @override
   _EditUserScreenState createState() => _EditUserScreenState();

@@ -5,6 +5,8 @@ import 'package:http/http.dart' as http;
 import '../auth/login_screen.dart';
 
 class UserRegisterScreen extends StatefulWidget {
+  const UserRegisterScreen({super.key});
+
   @override
   _UserRegisterScreenState createState() => _UserRegisterScreenState();
 }

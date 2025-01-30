@@ -6,6 +6,8 @@ import 'dart:convert';
 import 'BottomNavigation.dart';
 
 class StaffPortalScreen extends StatefulWidget {
+  const StaffPortalScreen({super.key});
+
   @override
   _StaffPortalScreenState createState() => _StaffPortalScreenState();
 }

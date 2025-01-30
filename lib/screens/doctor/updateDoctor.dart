@@ -7,7 +7,7 @@ import '../../config.dart';
 class EditDoctorScreen extends StatefulWidget {
   final Map<String, dynamic> doctor;
 
-  EditDoctorScreen({required this.doctor});
+  const EditDoctorScreen({super.key, required this.doctor});
 
   @override
   _EditDoctorScreenState createState() => _EditDoctorScreenState();
@@ -65,7 +65,7 @@ class _EditDoctorScreenState extends State<EditDoctorScreen> {
 
     try {
       final response = await http.put(
-        Uri.parse('${BASE_URLS}/doctors/${widget.doctor['id']}'),
+        Uri.parse('$BASE_URLS/doctors/${widget.doctor['id']}'),
         headers: {'Content-Type': 'application/json'},
         body: json.encode(updatedDoctor),
       );

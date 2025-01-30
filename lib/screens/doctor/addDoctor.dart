@@ -5,6 +5,8 @@ import 'package:http/http.dart' as http;
 import '../../config.dart';
 
 class AddDoctorScreen extends StatefulWidget {
+  const AddDoctorScreen({super.key});
+
   @override
   _AddDoctorScreenState createState() => _AddDoctorScreenState();
 }

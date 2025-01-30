@@ -3,6 +3,8 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 
 class AddCustomerScreen extends StatefulWidget {
+  const AddCustomerScreen({super.key});
+
   @override
   _AddCustomerScreenState createState() => _AddCustomerScreenState();
 }

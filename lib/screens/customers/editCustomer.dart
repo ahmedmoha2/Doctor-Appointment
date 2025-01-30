@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 class EditCustomerScreen extends StatefulWidget {
   final Map<String, dynamic> customer;
 
-  EditCustomerScreen({required this.customer});
+  const EditCustomerScreen({super.key, required this.customer});
 
   @override
   _EditCustomerScreenState createState() => _EditCustomerScreenState();

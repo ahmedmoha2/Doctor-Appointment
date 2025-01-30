@@ -48,6 +48,8 @@ class _BottomNavBarExampleState extends State<BottomNavBarExample> {
 }
 
 class HomePage extends StatelessWidget {
+  const HomePage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Center(
@@ -57,6 +59,8 @@ class HomePage extends StatelessWidget {
 }
 
 class SettingsPage extends StatelessWidget {
+  const SettingsPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Center(

@@ -6,6 +6,8 @@ import 'addDoctor.dart';
 import 'updateDoctor.dart';
 
 class ViewListDoctorsScreen extends StatefulWidget {
+  const ViewListDoctorsScreen({super.key});
+
   @override
   _ViewListDoctorsScreenState createState() => _ViewListDoctorsScreenState();
 }
@@ -22,7 +24,7 @@ class _ViewListDoctorsScreenState extends State<ViewListDoctorsScreen> {
   Future<void> fetchDoctors() async {
     try {
       final response =
-          await http.get(Uri.parse('${BASE_URLS}/doctors'));
+          await http.get(Uri.parse('$BASE_URLS/doctors'));
 
       if (response.statusCode == 200) {
         setState(() {
@@ -43,7 +45,7 @@ class _ViewListDoctorsScreenState extends State<ViewListDoctorsScreen> {
   Future<void> deleteDoctor(int id) async {
     try {
       final response = await http.delete(
-        Uri.parse('${BASE_URLS}/doctors/$id'),
+        Uri.parse('$BASE_URLS/doctors/$id'),
       );
 
       if (response.statusCode == 200) {

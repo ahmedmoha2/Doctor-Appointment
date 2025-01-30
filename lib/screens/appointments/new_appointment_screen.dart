@@ -6,6 +6,8 @@ import 'package:intl/intl.dart';
 import '../../config.dart';
 
 class AddAppointmentScreen extends StatefulWidget {
+  const AddAppointmentScreen({super.key});
+
   @override
   _AddAppointmentScreenState createState() => _AddAppointmentScreenState();
 }

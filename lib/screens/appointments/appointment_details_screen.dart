@@ -10,6 +10,8 @@ void main() {
 }
 
 class AppointmentApp extends StatelessWidget {
+  const AppointmentApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -23,6 +25,8 @@ class AppointmentApp extends StatelessWidget {
 }
 
 class AppointmentListScreen extends StatefulWidget {
+  const AppointmentListScreen({super.key});
+
   @override
   _AppointmentListScreenState createState() => _AppointmentListScreenState();
 }
@@ -176,20 +180,20 @@ class _AppointmentListScreenState extends State<AppointmentListScreen> {
                           context: context,
                           builder: (context) {
                             // Form controllers
-                            TextEditingController _doctorIdController = TextEditingController(text: appointment.doctorId);
-                            TextEditingController _patientIdController = TextEditingController(text: appointment.patientId);
-                            TextEditingController _appointmentDateController = TextEditingController(text: appointment.appointmentDate);
-                            TextEditingController _statusController = TextEditingController(text: appointment.status);
+                            TextEditingController doctorIdController = TextEditingController(text: appointment.doctorId);
+                            TextEditingController patientIdController = TextEditingController(text: appointment.patientId);
+                            TextEditingController appointmentDateController = TextEditingController(text: appointment.appointmentDate);
+                            TextEditingController statusController = TextEditingController(text: appointment.status);
 
                             return AlertDialog(
                               title: Text('Edit Appointment'),
                               content: SingleChildScrollView(
                                 child: Column(
                                   children: [
-                                    TextField(controller: _doctorIdController, decoration: InputDecoration(labelText: 'Doctor ID')),
-                                    TextField(controller: _patientIdController, decoration: InputDecoration(labelText: 'Patient ID')),
-                                    TextField(controller: _appointmentDateController, decoration: InputDecoration(labelText: 'Appointment Date')),
-                                    TextField(controller: _statusController, decoration: InputDecoration(labelText: 'Status')),
+                                    TextField(controller: doctorIdController, decoration: InputDecoration(labelText: 'Doctor ID')),
+                                    TextField(controller: patientIdController, decoration: InputDecoration(labelText: 'Patient ID')),
+                                    TextField(controller: appointmentDateController, decoration: InputDecoration(labelText: 'Appointment Date')),
+                                    TextField(controller: statusController, decoration: InputDecoration(labelText: 'Status')),
                                   ],
                                 ),
                               ),
@@ -204,10 +208,10 @@ class _AppointmentListScreenState extends State<AppointmentListScreen> {
                                   onPressed: () {
                                     updateAppointment(
                                       appointment.id.toString(),
-                                      _doctorIdController.text,
-                                      _patientIdController.text,
-                                      _appointmentDateController.text,
-                                      _statusController.text,
+                                      doctorIdController.text,
+                                      patientIdController.text,
+                                      appointmentDateController.text,
+                                      statusController.text,
                                     );
                                     Navigator.pop(context); // Close dialog after saving
                                   },
