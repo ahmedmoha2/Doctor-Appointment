@@ -30,3 +30,10 @@ The system ensures seamless communication between **patients, doctors, and staff
 ✔ **Appointment Booking & Scheduling**  
 ✔ **Doctor Availability Management**  
 ✔ **Notification System** (Email/SMS)  
+
+
+## 👨‍💻 Author
+✔ ** Muthasir Mohamet
+✔ ** GitHub: muthasirMohamet
+✔ ** Email: your-email@example.com
+✔ ** LinkedIn: Your LinkedIn
