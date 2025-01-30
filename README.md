@@ -38,7 +38,7 @@ The system ensures seamless communication between **patients, doctors, and staff
 - ✔ ** Email: muthasirmohamed0@gmail.com
 
 - ✔ ** Abdirahman Hussien Ali
-- ✔ ** Email: muthasirmohamed0@gmail.com
+- ✔ ** Cusubyare21@gmail.com 
 
 - ✔ ** Zakariye Ali
 - ✔ ** Email: muthasirmohamed0@gmail.com
