@@ -17,7 +17,6 @@ The system ensures seamless communication between **patients, doctors, and staff
 - Flutter (Dart)  
 - Provider / Riverpod (State Management)  
 - HTTP (API Integration)  
-- Firebase (Optional for Authentication & Notifications)  
 
 ### **Backend** (Node.js & Express)  
 - Node.js  
@@ -44,4 +43,12 @@ The system ensures seamless communication between **patients, doctors, and staff
 - ✔ ** Email: muthasirmohamed0@gmail.com
 
 - ✔ ** Ahmed Abdi mohamed
-- ✔ ** ahmedabdimohamed41@gmail.com 
+- ✔ ** ahmedabdimohamed41@gmail.com
+
+##
+- In Backend
+-  Step1 = ** Go To Server Folder and choise server.js
+-  Step2 = ** Run toserver. write node server.js
+
+-  - In Backend
+- ** Only run for flutter doctor. Flutter run in terminal 
