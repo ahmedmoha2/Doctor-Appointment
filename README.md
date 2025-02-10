@@ -44,4 +44,4 @@ The system ensures seamless communication between **patients, doctors, and staff
 ✔ **Ahmed Abdullahi Ahmed -- C1210169**  
 ✔ **Muse Ahmed Adan -- C1210284**  
 ✔ **Abdullahi Ali Mursal -- C1210778**  
-✔ **Abdinasir Mire Mohmuud  -- C1211008
+✔ **Abdinasir Mire Mohmuud  -- C1211008**
