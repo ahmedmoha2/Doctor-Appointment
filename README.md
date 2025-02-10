@@ -31,20 +31,6 @@ The system ensures seamless communication between **patients, doctors, and staff
 ✔ **Notification System** (Email/SMS)  
 
 
-## 👨‍💻 Author
-
-- ✔ ** Muthasir Mohamet
-- ✔ ** Email: muthasirmohamed0@gmail.com
-
-- ✔ ** Abdirahman Hussien Ali
-- ✔ ** Cusubyare21@gmail.com 
-
-- ✔ ** Zakariye Ali
-- ✔ ** Email: muthasirmohamed0@gmail.com
-
-- ✔ ** Ahmed Abdi mohamed
-- ✔ ** ahmedabdimohamed41@gmail.com
-
 ##
 - In Backend
 -  Step1 = ** Go To Server Folder and choise server.js
