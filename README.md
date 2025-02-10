@@ -37,4 +37,11 @@ The system ensures seamless communication between **patients, doctors, and staff
 -  Step2 = ** Run toserver. write node server.js
 
 -  - In Backend
-- ** Only run for flutter doctor. Flutter run in terminal 
+- ** Only run for flutter doctor. Flutter run in terminal
+
+## Authors
+
+✔ **Ahmed Abdullahi Ahmed -- C1210169**
+✔ **Muse Ahmed Adan -- C1210284**  
+✔ **Abdullahi Ali Mursal -- C1210778**  
+✔ **Abdinasir Mire Mohmuud  -- C1211008
