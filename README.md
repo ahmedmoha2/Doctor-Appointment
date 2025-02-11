@@ -41,7 +41,7 @@ The system ensures seamless communication between **patients, doctors, and staff
 
 ## Authors
 
-✔ **Ahmed Abdullahi Ahmed -- C1210169**  
+✔ **Ahmed Abdullahi Ahmed -- C1210160**  
 ✔ **Muse Ahmed Adan -- C1210284**  
 ✔ **Abdullahi Ali Mursal -- C1210778**  
 ✔ **Abdinasir Mire Mohmuud  -- C1211008**
